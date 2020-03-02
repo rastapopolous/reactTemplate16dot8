@@ -30,7 +30,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "semi": [2, "always"],
     "react/jsx-indent": [2, 2],
-    "jsx-quotes": [2, "prefer-single"],
+    // "jsx-quotes": [2, "prefer-single"],
     "react/prefer-stateless-function": "warn",
     "space-before-function-paren": [2, "always"],
     "comma-dangle": [2, "never"],
