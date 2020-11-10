@@ -23,7 +23,19 @@ module.exports = {
       {
         test: /\.(css|scss)$/,
         use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader',  'sass-loader']
-      }
+      },
+      {
+        test: /\.svg$/,
+        use: ['@svgr/webpack']
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ]
   },
   plugins: [
