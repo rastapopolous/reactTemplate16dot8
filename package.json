@@ -1,13 +1,14 @@
 {
   "name": "reactTemplate16dot8",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-cli serve",
     "devbuild": "webpack --watch --mode=development",
     "prodbuild": "webpack --mode=production --optimize-minimize",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "lint": "eslint **/*.js"
   },
   "jest": {
     "collectCoverage": true,
