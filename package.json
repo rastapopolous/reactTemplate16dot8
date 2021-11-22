@@ -1,7 +1,6 @@
 {
-  "name": "reactTemplate2019",
+  "name": "reactTemplate16dot8",
   "version": "1.0.0",
-  "description": "**>>node-sass must be installed globally & locally(?)to run atom sass-autocompile",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-cli serve",
@@ -74,11 +73,10 @@
     "node-sass": "^6.0.1",
     "popper.js": "^1.16.1",
     "prop-types": "^15.6.2",
-    "react": "^16.14.0",
-    "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.14.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-redux": "^7.2.5",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.2.0",
     "redux": "^4.1.1",
     "sass-loader": "^10.0.5",
     "styled-components": "^4.2.0",
